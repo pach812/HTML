@@ -1,0 +1,20 @@
+.perrito{
+    size-adjust: 3%;
+    padding: 0%;
+    margin: 0%;
+    height:auto;
+    max-width: 13cm;
+
+}
+
+.header{
+    font-style: italic;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: aliceblue;
+    position: static;
+    align-content: center;
+    padding-top: 1%;
+    padding-left: 2%;
+    flex: auto;
+    max-height: min-content;
+}
