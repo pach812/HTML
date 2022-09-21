@@ -14,13 +14,11 @@ img {
   scroll-snap-type: x mandatory;
   scroll-behavior: smooth;
   overflow-x: scroll;
-  width: 100%;
-  max-width: 100%;
-  height: auto;
+
 }
 
 .item_galeria {
-  padding: .5rem;
+  padding: .1rem;
   font-size: 1.2rem;
   text-align: center;
   background-color: aliceblue;
