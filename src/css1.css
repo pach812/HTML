@@ -1,3 +1,8 @@
+img{
+  width: 100%;
+  height: auto;
+}
+
 .galeria {
   display: flex;
   flex-wrap: nowrap;
@@ -13,10 +18,12 @@
   padding: .5rem;
   font-size: 1.2rem;
   text-align: center;
-  background-color: #333;
+  background-color: aliceblue;
   color: #d9d9d9;
   scroll-snap-align: center;
 }
+
+
 
 @media screen and (min-width:800px) {
   .galeria {
@@ -24,7 +31,7 @@
     padding: 1rem 0;
     scroll-snap-type: y mandatory;
     overflow-y: scroll;
-    height: 450px;
+    height: 100%;
   }
   .item_galeria{
     scroll-snap-align: start;
