@@ -1,17 +1,32 @@
-
 .galeria {
-  flex-wrap: wrap;
+  display: flex;
+  flex-wrap: nowrap;
   margin: 0;
   padding: 0;
-  scroll-snap-type: y mandatory;
+  background-color: #f0f0f0;
+  scroll-snap-type: x mandatory;
   scroll-behavior: smooth;
-  overflow-y: scroll;
+  overflow-x: scroll;
 }
-.item_galeria{
+
+.item_galeria {
   padding: .5rem;
   font-size: 1.2rem;
   text-align: center;
-  background-color: aliceblue;
-  color: antiquewhite;
-  scroll-snap-align: start;
+  background-color: #333;
+  color: #d9d9d9;
+  scroll-snap-align: center;
+}
+
+@media screen and (min-width:800px) {
+  .galeria {
+    flex-wrap: wrap;
+    padding: 1rem 0;
+    scroll-snap-type: y mandatory;
+    overflow-y: scroll;
+    height: 450px;
+  }
+  .item_galeria{
+    scroll-snap-align: start;
+  }
 }
