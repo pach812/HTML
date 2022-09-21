@@ -1,5 +1,9 @@
+img { 
+  object-fit: cover;
+} 
+
 .galeria {
-  display: flex;
+  display: flexbox;
   flex-wrap: nowrap;
   margin: 0;
   padding: 0;
@@ -16,7 +20,6 @@
   background-color: aliceblue;
   color: #d9d9d9;
   scroll-snap-align: center;
-  object-fit: contain;
 }
 
 /* .item_galeria figure{
