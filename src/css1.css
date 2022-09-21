@@ -4,6 +4,6 @@ iframe {
 
 .scroll_pdf {
     overflow-y: scroll;
-    width: fit-content;
-    height: auto;
+    width: 500px;
+    height: 800px;
 }
