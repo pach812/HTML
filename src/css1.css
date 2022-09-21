@@ -1,28 +1,17 @@
-html {
-  height: 100%;
-}
-body {
-  height: 100%;
+
+.galeria {
+  flex-wrap: wrap;
   margin: 0;
+  padding: 0;
+  scroll-snap-type: y mandatory;
+  scroll-behavior: smooth;
+  overflow-y: scroll;
 }
-
-.carrete {
-  margin: auto;
-  background: white;
-  box-shadow: rgba(0, 0, 0, 0.5) 0px 22px 70px 4 px;
-  border-radius: 8px;
-  width: fit-content;
-}
-
-.contenedor_imagenes {
-  display: flex;
-  gap: 10px;
-  overflow-x: auto;
-  scroll-snap-type: x proximity;
-}
-
-.contenedor_imagenes img {
-    scroll-snap-align: start;
-  height: fit-content;
-  width: auto;
+.item_galeria{
+  padding: .5rem;
+  font-size: 1.2rem;
+  text-align: center;
+  background-color: aliceblue;
+  color: antiquewhite;
+  scroll-snap-align: start;
 }
