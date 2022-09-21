@@ -1,3 +1,9 @@
 iframe {
     width: 100% !important;
   }
+
+.scroll_pdf {
+    overflow-y: scroll;
+    width: fit-content;
+    height: auto;
+}
