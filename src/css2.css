@@ -5,9 +5,9 @@
 
 .galeria{
     display: block;
-    width: 100%;
+    width: auto;
+    height: auto;
     overflow-x: scroll;
-    box-sizing: border-box;  
     scroll-snap-type: x proximity;
     scroll-behavior: smooth;
     background-color: aliceblue;
